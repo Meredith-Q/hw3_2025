@@ -9,13 +9,13 @@ nav a:hover, a:focus{
 /*Write selector/rule property to position the default position for the skip class element*/
 .skip{
      position: absolute;
-     top: -65px;
+     top: -35px;
 }
 
 /*Write selector/rule property to position the skip class element when it is in focus*/
 .skip a:focus{
      position: absolute;
-     top: 25px;
+     top: 30px;
 }
 
 /*Write selector/rule property to style all elements when in focus*/
@@ -34,7 +34,7 @@ nav a:hover, a:focus{
 
 /*Write selector/rule property to add the background image to the first div in the grid and place it in the grid. */
 .container > :first-child {
-     background-image: url("images/header.jpg"); 
+     background-image: url("../images/header.jpg"); 
      background-repeat: no-repeat;
      grid-column: 1 / -1;
 }
